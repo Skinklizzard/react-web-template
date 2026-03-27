@@ -1,0 +1,12 @@
+{
+  "name": "React + TypeScript",
+  "dockerFile": "Dockerfile",
+  "postCreateCommand": "npm install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
+}

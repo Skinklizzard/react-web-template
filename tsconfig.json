@@ -1,0 +1,33 @@
+{
+
+    "compilerOptions": {
+      "target": "es2020",
+      "forceConsistentCasingInFileNames": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "jsx": "react-jsx",
+      "declaration": false,
+      "sourceMap": true,
+      "skipLibCheck": true,
+      "inlineSources": false,
+      "noImplicitAny": true,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+  
+      "typeRoots": [
+        "./node_modules/@types",
+        "./node_modules/@microsoft"
+      ],
+      
+"lib": [
+      "DOM",
+      "ES2020"
+    ]
+
+    },
+    "include": [
+      "src/**/*.ts",
+      "src/**/*.tsx"
+    ]
+  }
+  
