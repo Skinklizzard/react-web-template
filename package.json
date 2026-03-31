@@ -1,5 +1,5 @@
 {
-  "name": "react-oidc-frontend-template",
+  "name": "__PROJECT_NAME__",
   "version": "1.0.0",
   "private": true,
   "description": "React + TypeScript frontend with OIDC, Fluent UI, React Router data APIs, and React Query",
